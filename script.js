@@ -6,6 +6,7 @@ const btnGen = document.querySelector('.btn-gen')
 const password = document.querySelector('#copyIn')
 const lona = document.querySelector('.Length')
 const btnCopy = document.querySelector('.butt')
+console.log(btnCopy);
   
 // function random
 

@@ -5,7 +5,7 @@
 }
 body{
   font-size: 1rem;
-  background-color:rgb(255, 188, 240) ;
+  background-color:#303841 ;
   font-family: "Poppins", sans-serif;
 }
 .body{
@@ -20,7 +20,7 @@ p {
    font-weight: 300;
 }
 #card-password{
- background-color:rgb(226, 50, 109);
+ background-color:#022042 ;
  padding: 1em 1.9em;
  display: flex;
  flex-direction: column;
@@ -33,7 +33,7 @@ p {
  width: 100%;
  background: none;
  border: none;
- background-color:rgb(165, 5, 104);
+ background-color:#005ac2  ;
  padding: 0.5rem;
 }
 
@@ -45,7 +45,7 @@ p {
 
 .ayoub > span > button {
  padding: 0.7rem;
- background-color: rgb(100, 19, 64);
+ background-color: #90baeb;
  border: none;
 }
 
@@ -56,10 +56,13 @@ p {
 .ayoub{
  display: flex;
  justify-content: space-around;
+ border-radius: 13px;
 }
 #copyIn {
    color: aliceblue;
   font-size: 1rem;
+  outline: none;
+  border-radius: 13px 0 0 13px;
 }
    
 
@@ -77,19 +80,21 @@ p {
 }
 .Length {
   width: 4rem;
+  outline: none;
 }
 .btn-gen {
  background-color: rgb(245, 245, 245);
  padding: 1rem 1.8rem;
-
+ outline: none;
  border-radius: 1rem;
 }
 .btn-gen:hover {
-background-color: rgb(255, 188, 240);
+background-color:#0b396d;
+color: white;
 }
 
 .copyR {
-color: rgb(196, 20, 20);
+color: white;
 margin-top: 2rem;
 }
 .copyR > a {
